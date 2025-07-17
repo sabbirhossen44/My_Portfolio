@@ -1,7 +1,9 @@
 import React from 'react';
-import bg_img from '../assets/bg_img.png';
+import bg_img from '../assets/bg.jpg';
+import { useNavigate } from 'react-router-dom';
 
 const About = () => {
+    const navigate = useNavigate();
     return (
         <>
             <div
@@ -21,6 +23,7 @@ const About = () => {
                         </p>
                         <div className="text-center">
                             <button
+                                onClick={()=>navigate('/contact')}
                                 className='text-xl bg-teal-700 hover:bg-teal-900 hover:shadow-xl px-8 py-3 shadow-md rounded-lg'
                             >Hire Me</button>
                         </div>

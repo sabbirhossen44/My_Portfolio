@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFacebookF, FaGithub, FaTwitter, FaInstagram ,FaWhatsapp  } from 'react-icons/fa';
 import profileImg from '../assets/profile.png';
-import cv from '../assets/Sabbir_Hossen.pdf';
+// import cv from '../assets/Sabbir_Hossen.pdf';
 
 const Hero = () => {
     return (
@@ -37,8 +37,8 @@ const Hero = () => {
                             <p className="text-gray-400 text-xl text-center">I specialize in Web Design & Web Development.</p>
                             <div className="text-center">
                                 <a
-                                    href={cv}
-                                    download
+                                    href='/Sabbir_Hossen.pdf'
+                                    download = "Sabbir_Hossen.pdf"
                                     className="inline-block bg-teal-700 text-white font-medium px-6 py-3 rounded-full hover:bg-lime-600 transition"
                                 >
                                     Download CV

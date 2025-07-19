@@ -32,7 +32,7 @@ const Contact = () => {
                                     </p>
                                     <p className='text-white/80 text-balance'>
                                         <a href="mailto:sabbir114@gmail.com" className="">
-                                            sabbir114@gmail.com
+                                            sabbirsh144@gmail.com
                                         </a>
                                     </p>
                                 </div>
@@ -58,7 +58,7 @@ const Contact = () => {
             <div className="bg-[#1f1f1f]">
                 <div className="py-12">
                     <div className="container mx-auto">
-                        <ContactForm/>
+                        <ContactForm />
                     </div>
                 </div>
             </div>
